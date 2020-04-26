@@ -1,0 +1,34 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Divya Godayal
+tagline:          'Portfolio'
+url:              https://dg.github.io/
+poemsurl:         /poems/
+
+author:
+  name:           'Divya Godayal'
+  url:            https://twitter.com/mdo
+  gravatar_md5:   2208002d2efae6ba2be8eff453c5b7f9
+  github:         DivyaGodayal
+  linkedin:       divyagodayal
+  smule:          __DivyaGodayal__  
+  medium:         divyagodayal        
+  facebook:       godayaldivya
+
+paginate:         5
+paginate_path: "/poems/page:num/"
+
+# Custom vars
+version:          2.1.0
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-gist
+  
+
